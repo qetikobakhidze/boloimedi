@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74954381919",
+    "project_id": "boloimedi-ea592",
+    "storage_bucket": "boloimedi-ea592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74954381919:android:cdfde5222beb90a87919ea",
+        "android_client_info": {
+          "package_name": "com.example.araperi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74954381919-ajpm664vrghrgtjd5ursjc599815elk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKp4Ee2WzyNt3_-IEV07Od-6Akq-Hguo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74954381919-ajpm664vrghrgtjd5ursjc599815elk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -27,79 +27,54 @@
 
 
 
-    <EditText
-        android:id="@+id/signInEmail"
-        android:layout_width="400dp"
-        android:layout_height="55dp"
-        android:ems="10"
-        android:textColorHint="#B572ACC8"
-        android:hint="იმეილი"
-        android:inputType="textEmailAddress"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <EditText
-        android:id="@+id/signInPassword"
-        android:layout_width="400dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="14dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:textColorHint="#B572ACC8"
-        android:hint="პაროლი"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInEmail"
-        app:layout_constraintVertical_bias="0.0" />
+        <EditText
+            android:id="@+id/signInEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
-    <Button
-        android:id="@+id/signInButton"
-        android:layout_width="98dp"
-        android:layout_height="44dp"
-        android:backgroundTint="#4D5EC5"
-        android:text="შესვლა"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
+        <EditText
+            android:id="@+id/signInPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
 
-    <Button
-        android:id="@+id/gotoRegistrationButton"
-        android:backgroundTint="#4D5EC5"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="240dp"
-        android:text="რეგისტრაცია"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInButton"
-        app:layout_constraintVertical_bias="0.39" />
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#4D5EC5"
+            android:text="შესვლა" />
 
-    <Button
-        android:id="@+id/passwordResetButton"
-        android:layout_width="200dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="202dp"
-        android:backgroundTint="#4D5EC5"
-        android:text="პაროლის აღდგენა"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gotoRegistrationButton"
-        app:layout_constraintVertical_bias="1.0" />
+        <Button
+            android:id="@+id/gotoRegistrationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4D5EC5"
+            android:text="რეგისტრაცია" />
 
-
+        <Button
+            android:id="@+id/passwordResetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4D5EC5"
+            android:text="პაროლის აღდგენა" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

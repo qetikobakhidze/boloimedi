@@ -67,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
+        android:layout_marginLeft="4dp"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +76,7 @@
         android:id="@+id/noteTextView" />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/nameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
